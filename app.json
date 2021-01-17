@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "아크투자하자",
+    "slug": "investarkApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "port": 595419
+	},
+	  "ios": {
+      "bundleIdentifier": "com.wb.investarkApp",
+      "buildNumber": "1.0.0",
+	  "supportsTablet": true
+    },
+    "android": {
+      "package": "com.wb.investarkApp",
+      "versionCode": 1
+    }
+  }
+}
